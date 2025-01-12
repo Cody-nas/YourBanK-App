@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
 
-      <div className='flex flex-col md:flex-row justify-evenly items-center gap-6'>
+      <div className='flex flex-col md:flex-row justify-around items-center gap-6'>
 
 
         {/* hero content */}
