@@ -21,7 +21,7 @@ const Hero = () => {
             <br />
             Empowering Your <span className='text-grn'>Financial <br /> Journey</span>
           </h2>
-          <p className='text-sm md:text-base mb-6'>
+          <p className='text-sm text-gray-300 md:text-base mb-6'>
             At YourBank, our mission is to provide comprehensive banking solutions that <br />
             empower individuals and businesses to achieve their financial goals. We are <br />
             committed to delivering personalized and innovative services that prioritize our <br />
