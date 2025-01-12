@@ -16,8 +16,8 @@ const Hero = () => {
             <span>No LLC Required, No Credit Check.</span>
 
           </div>
-          <h2 className='text-2xl md:text-4xl font-bold leading-relaxed mb-4'>
-            Welcome to YourBank
+          <h2 className='text-2xl md:text-4xl font-medium leading-relaxed mb-4'>
+            Welcome to YourBanK
             <br />
             Empowering Your <span className='text-grn'>Financial <br /> Journey</span>
           </h2>
