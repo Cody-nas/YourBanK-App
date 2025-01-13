@@ -1,4 +1,7 @@
 import React from 'react';
+import checking from '../assets/checking.png';
+import savings from '../assets/savings.png';
+import loans from '../assets/Loans.png';
 
 const Products = () => {
   return (
@@ -16,7 +19,36 @@ const Products = () => {
           </div>
         </div>
 
-        <div></div>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-5xl mx-auto'>
+
+          {/* checking account */}
+          <div className=' rounded-lg p-6 text-center'>
+            <div className="text-grn mb-4">
+              <img src={checking} alt="checking" className='w-10 h-10' />
+            </div>
+            <h3 className="text-xl font-base">Checking Accounts</h3>
+            <p className="mt-4 text-sm text-gray-300">Enjoy easy and convenient access to your funds with our range of checking account options. Benefit from features such as online and mobile banking, debit cards, and free ATM access.</p>
+          </div>
+
+          {/* saving account */}
+          <div className=" rounded-lg p-6 text-center">
+            <div className=" mb-4">
+              <img src={savings} alt="savings" className='w-10 h-10' />
+            </div>
+            <h3 className="text-xl font-base">Savings Accounts</h3>
+            <p className="mt-4 text-sm text-gray-300">Build your savings with our competitive interest rates and flexible savings account options. Whether you’re saving for a specific goal or want to grow your wealth over time, we have the right account for you.</p>
+          </div>
+
+          {/* Loans and mortgages */}
+          <div className="rounded-lg p-6 text-center">
+            <div className="text-grn mb-4">
+              <img src={loans} alt="loans" className='w-10 h-10' />
+            </div>
+            <h3 className="text-xl font-base">Loans and Mortgages</h3>
+            <p className="mt-4 text-sm text-gray-300">Realize your dreams with our flexible loan and mortgage options. From personal loans to home mortgages, our experienced loan officers are here to guide you through the application process and help you secure the funds you need.</p>
+          </div>
+
+        </div>
       </div>
     </div>
   );
