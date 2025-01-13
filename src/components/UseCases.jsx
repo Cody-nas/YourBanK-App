@@ -2,7 +2,7 @@ import React from 'react';
 import funding from '../assets/funding.png';
 import future from '../assets/future.png';
 import home from '../assets/homeowner.png';
-import managing from '../assets/managing.png'
+import managing from '../assets/managing.png';
 
 const UseCases = () => {
   return (
@@ -17,45 +17,74 @@ const UseCases = () => {
           </p>
         </div>
 
-        {/* Left section */}
-        <div className="w-full md:w-1/2 grid grid-cols-2 mt-6 gap-4">
+        <div className="flex flex-col md:flex-row mt-8">
+          {/* Left section */}
 
 
-          {/* <!-- Card 1 --> */}
-          <div className=" p-4 rounded-lg text-center">
-            <div className="text-center mb-2">
-              <img src={managing} alt="" className='w-10 h-10 mx-auto' />
+          <div className="w-full md:w-1/2 grid grid-cols-2 text-sm mt-6 gap-4">
+            {/* <!-- Card 1 --> */}
+            <div className=" p-4 rounded-2xl border shadow-2xl text-center">
+              <div className="text-center mb-2">
+                <img src={managing} alt="" className='w-10 h-10 mx-auto' />
+              </div>
+              <p>Managing Personal Finances</p>
             </div>
-            <p>Managing Personal Finances</p>
+
+
+            {/* <!-- Card 2 --> */}
+            <div className=" p-4 rounded-2xl border shadow-2xl text-center">
+              <div className="mb-2">
+                <img src={future} alt="" className='w-10 h-10 mx-auto' />
+              </div>
+              <p>Saving for the Future</p>
+            </div>
+
+
+            {/* <!-- Card 3 --> */}
+            <div className="p-4 rounded-2xl border shadow-2xl text-center">
+              <div className="mb-2">
+                <img src={home} alt="" className='w-10 h-10 mx-auto' />
+
+              </div>
+              <p>Homeownership</p>
+            </div>
+
+
+            {/* <!-- Card 4 --> */}
+            <div className="p-4 rounded-2xl border shadow-2xl text-center">
+              <div className=" mb-2">
+                <img src={funding} alt="" className='w-10 h-10 mx-auto' />
+
+              </div>
+              <p>Education Funding</p>
+            </div>
           </div>
 
-
-          {/* <!-- Card 2 --> */}
-          <div className=" p-4 rounded-lg text-center">
-            <div className="mb-2">
-              <img src={future} alt="" className='w-10 h-10 mx-auto' />
+          {/* right scetion */}
+          <div className="w-full md:w-1/2 px-4">
+            <h2 className="text-xl font-medium mt-4 mb-4">For Individuals</h2>
+            <p className="text-gray-300 text-sm mb-6">
+              For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers.
+            </p>
+            <div className="flex justify-between">
+              <div className="text-center">
+                <p className="text-3xl font-bold text-grn">78%</p>
+                <p className="text-gray-300 text-sm">Secure Retirement Planning</p>
+              </div>
+              <div className="text-center">
+                <p className="text-3xl font-bold text-grn">63%</p>
+                <p className="text-gray-300 text-sm">Manageable Debt Consolidation</p>
+              </div>
+              <div className="text-center">
+                <p className="text-3xl font-bold text-grn">91%</p>
+                <p className="text-gray-300 text-sm">Reducing financial burdens</p>
+              </div>
             </div>
-            <p>Saving for the Future</p>
-          </div>
-
-
-          {/* <!-- Card 3 --> */}
-          <div className="p-4 rounded-lg text-center">
-            <div className="mb-2">
-              <img src={home} alt="" className='w-10 h-10 mx-auto' />
-
+            <div className="mt-6">
+              <button className=" border text-white px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-700">
+                learn more
+              </button>
             </div>
-            <p>Homeownership</p>
-          </div>
-
-
-          {/* <!-- Card 4 --> */}
-          <div className="p-4 rounded-lg text-center">
-            <div className="text-green-500 mb-2">
-              <img src={funding} alt="" className='w-10 h-10 mx-auto' />
-
-            </div>
-            <p>Education Funding</p>
           </div>
         </div>
       </div>

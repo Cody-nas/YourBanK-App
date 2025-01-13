@@ -27,10 +27,10 @@ const Products = () => {
         </div>
 
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-5xl mx-auto'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-5xl mx-auto divide-x'>
 
           {/* Checking Account */}
-          <div className='rounded-lg border-r- p-6 text-center shadow-md'>
+          <div className=' p-6 text-center '>
             <div className="mb-4">
               <img src={checking} alt="checking" className='w-10 h-10 mx-auto' />
             </div>
@@ -41,7 +41,7 @@ const Products = () => {
           </div>
 
           {/* Savings Account */}
-          <div className="rounded-lg p-6 text-center  shadow-md">
+          <div className=" p-6 text-center ">
             <div className="mb-4">
               <img src={savings} alt="savings" className='w-10 h-10 mx-auto' />
             </div>
@@ -52,7 +52,7 @@ const Products = () => {
           </div>
 
           {/* Loans and Mortgages */}
-          <div className="rounded-lg p-6 text-center  shadow-md">
+          <div className=" p-6 text-center ">
             <div className="mb-4">
               <img src={loans} alt="loans" className='w-10 h-10 mx-auto' />
             </div>
