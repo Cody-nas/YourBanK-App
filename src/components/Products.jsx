@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
       <div className='flex-col md:flex-row md:items-center'>
-        <div className='font-medium mb-4 md:mb-0 md:ml-16 md:pl-10 text-center md:text-left'>
+        <div className='font-medium mb-4 md:mb-0 md:ml-16  text-center md:text-left'>
           <h2 className='text-4xl'>Our <span className='text-grn'>Products</span></h2>
         </div>
 
@@ -17,7 +17,7 @@ const Products = () => {
           </p>
 
           <div className="flex justify-center md:justify-start mt-8 space-x-2">
-            <button className="bg-grn text-black px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-green-400">
+            <button className="bg-grn text-black px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-grn">
               For Individuals
             </button>
             <button className="bg-gray-800 text-white px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-700">
