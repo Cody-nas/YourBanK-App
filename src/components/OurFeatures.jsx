@@ -21,10 +21,10 @@ const OurFeatures = () => {
           <button className="text-center lg:mt-8 text-grn text-sm border-2 border-gray-50 p-2 rounded-full">
             Online Banking
           </button>
-          <button className="text-center text-gray-300 p-2 rounded-full border-2 border-gray-50">
+          <button className="text-center text-gray-300 text-sm p-2 rounded-full border-2 border-gray-50">
             Financial Tools
           </button>
-          <button className="text-center text-gray-300 p-2 rounded-full border-2 border-gray-50">
+          <button className="text-center text-gray-300 text-sm p-2 rounded-full border-2 border-gray-50">
             Customer Support
           </button>
         </div>

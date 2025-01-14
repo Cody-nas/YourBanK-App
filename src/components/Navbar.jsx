@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" bg-zinc-900  md:px-14 p-1.5 max-w-screen-xl border rounded-full mx-auto fixed top-6 right-0 left-0 z-50">
+    <nav className=" bg-zinc-900  md:px-14 p-2 max-w-screen-xl border rounded-full mx-auto fixed top-6 right-0 left-0 z-50">
       <div className="text-sm container mx-auto flex justify-between items-center font-sm">
         <div className="flex space-x-4 md:space-x-14 items-center">
           <a href="/" className="text-2xl font-semibold flex items-center space-x-1.5">

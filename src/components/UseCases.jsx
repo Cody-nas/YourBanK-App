@@ -87,7 +87,7 @@ const UseCases = () => {
             </div>
             <div className="mt-6">
               <button className=" border text-white px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-700">
-                learn more
+                Learn more
               </button>
             </div>
           </div>
@@ -117,7 +117,7 @@ const UseCases = () => {
             </div>
             <div className="mt-6">
               <button className=" border text-white px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-700">
-                learn more
+                Learn more
               </button>
             </div>
           </div>
