@@ -33,31 +33,31 @@ const OurFeatures = () => {
         <div className='md:w-3/4 grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-0'>
           <div className='p-6 rounded-lg border'>
             <div className='flex justify-between'>
-              <h3 className="text-xl font-semibold">24/7 Account Access</h3>
-              <img src={arrow} alt="arrow" className='w-6 h-6' />
+              <h2 className="text-sm font-medium">24/7 Account Access</h2>
+              <img src={arrow} alt="arrow" className='w-4 h-4' />
             </div>
-            <p className='mt-2 text-gray-300'>Enjoy the convenience of accessing your accounts anytime, anywhere through our secure online banking platform. Check balances, transfer funds, and pay bills with ease.</p>
+            <p className='mt-2 text-sm text-gray-300'>Enjoy the convenience of accessing your accounts anytime, anywhere through our secure online banking platform. Check balances, transfer funds, and pay bills with ease.</p>
           </div>
           <div className='p-6 rounded-lg border'>
             <div className='flex justify-between'>
-              <h3 className="text-xl font-semibold">Mobile Banking App</h3>
-              <img src={arrow} alt="arrow" className='w-6 h-6' />
+              <h2 className="text-sm font-medium">Mobile Banking App</h2>
+              <img src={arrow} alt="arrow" className='w-4 h-4' />
             </div>
-            <p className='mt-2 text-gray-300'>Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.</p>
+            <p className='mt-2 text-sm text-gray-300'>Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.</p>
           </div>
           <div className='p-6 rounded-lg border'>
             <div className='flex justify-between'>
-              <h3 className="text-xl font-semibold">Secure Transactions</h3>
-              <img src={arrow} alt="arrow" className='w-6 h-6' />
+              <h2 className="text-sm font-medium">Secure Transactions</h2>
+              <img src={arrow} alt="arrow" className='w-4 h-4' />
             </div>
-            <p className='mt-2 text-gray-300'>Rest assured knowing that your transactions are protected by industry-leading security measures. We employ encryption and multi-factor authentication to safeguard your financial information.</p>
+            <p className='mt-2 text-sm text-gray-300'>Rest assured knowing that your transactions are protected by industry-leading security measures. We employ encryption and multi-factor authentication to safeguard your financial information.</p>
           </div>
           <div className='p-6 rounded-lg border'>
             <div className='flex justify-between'>
-              <h3 className="text-xl font-semibold">Bill Pay and Transfers</h3>
-              <img src={arrow} alt="arrow" className='w-6 h-6' />
+              <h2 className="text-sm font-medium">Bill Pay and Transfers</h2>
+              <img src={arrow} alt="arrow" className='w-4 h-4' />
             </div>
-            <p className='mt-2 text-gray-300'>Save time and avoid late fees with our convenient bill pay service. Set up recurring payments or make one-time transfers between your accounts with just a few clicks.</p>
+            <p className='mt-2 text-sm text-gray-300'>Save time and avoid late fees with our convenient bill pay service. Set up recurring payments or make one-time transfers between your accounts with just a few clicks.</p>
           </div>
         </div>
       </div>
