@@ -17,16 +17,16 @@ const UseCases = () => {
           <h2 className='text-4xl text-grn'>Use Cases</h2>
         </div>
         <div className='flex-col md:flex-row md:justify-between md:items-center'>
-          <p className='mt-4 text-gray-300 max-w-2xl text-center md:text-left md:ml-16 '>
+          <p className='mt-2 text-gray-300 max-w-2xl text-center md:text-left md:ml-16 '>
             At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions
           </p>
         </div>
 
-        <div className="flex flex-col space-x-4 md:flex-row mt-8">
+        <div className="flex flex-col space-x-4 md:flex-row mt-2">
 
 
           {/* left section */}
-          <div className="w-full md:w-1/2 grid grid-cols-2 text-sm mt-6 gap-4">
+          <div className="w-full md:w-1/2 grid grid-cols-2 text-sm mt-4 gap-4">
             {/* <!-- Card 1 --> */}
             <div className=" p-4 rounded-2xl border shadow-2xl text-center">
               <div className="text-center mb-2">
@@ -97,21 +97,21 @@ const UseCases = () => {
         <div className="flex flex-col space-x-4 md:flex-row mt-8">
           {/* left section */}
           <div className="w-full md:w-1/2 px-4 mt-10">
-            <h2 className="text-xl font-medium mt-4 mb-4">For Individuals</h2>
+            <h2 className="text-xl font-medium mt-4 mb-4">For Business</h2>
             <p className="text-gray-300 text-sm mb-6">
-              For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers.
+              For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them.
             </p>
             <div className="flex justify-between">
               <div className="text-center">
-                <p className="text-3xl font-bold text-grn">78%</p>
+                <p className="text-3xl font-bold text-grn">65%</p>
                 <p className="text-gray-300 text-sm">Secure Retirement Planning</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-grn">63%</p>
+                <p className="text-3xl font-bold text-grn">70%</p>
                 <p className="text-gray-300 text-sm">Manageable Debt Consolidation</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-grn">91%</p>
+                <p className="text-3xl font-bold text-grn">45%</p>
                 <p className="text-gray-300 text-sm">Reducing financial burdens</p>
               </div>
             </div>
@@ -129,7 +129,7 @@ const UseCases = () => {
               <div className="text-center mb-2">
                 <img src={startup} alt="" className='w-10 h-10 mx-auto' />
               </div>
-              <p>Managing Personal Finances</p>
+              <p>Startups and Enterprenuers</p>
             </div>
 
 
@@ -138,7 +138,7 @@ const UseCases = () => {
               <div className="mb-2">
                 <img src={cashflow} alt="" className='w-10 h-10 mx-auto' />
               </div>
-              <p>Saving for the Future</p>
+              <p>Cash Flow Management </p>
             </div>
 
 
@@ -148,7 +148,7 @@ const UseCases = () => {
                 <img src={business} alt="" className='w-10 h-10 mx-auto' />
 
               </div>
-              <p>Homeownership</p>
+              <p>Business Expansion</p>
             </div>
 
 
@@ -158,7 +158,7 @@ const UseCases = () => {
                 <img src={payment} alt="" className='w-10 h-10 mx-auto' />
 
               </div>
-              <p>Education Funding</p>
+              <p>Payment Solution</p>
             </div>
           </div>
         </div>
