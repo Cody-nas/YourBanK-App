@@ -17,8 +17,8 @@ const OurFeatures = () => {
 
       <div className='flex flex-col md:flex-row md:space-x-4 mt-8'>
         {/* Sidebar */}
-        <div className="md:w-1/4 border flex flex-col space-y-4 p-4 rounded-lg">
-          <button className="text-center text-grn text-sm border-2 border-gray-50 p-2 rounded-full">
+        <div className="  md:w-1/4 flex flex-col space-y-4 p-6 text-center rounded-lg">
+          <button className="text-center lg:mt-8 text-grn text-sm border-2 border-gray-50 p-2 rounded-full">
             Online Banking
           </button>
           <button className="text-center text-gray-300 p-2 rounded-full border-2 border-gray-50">
