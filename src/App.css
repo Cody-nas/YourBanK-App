@@ -2,6 +2,9 @@
 
 body {
   font-family: "Jost", sans-serif;
+  margin: 0 2.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 nav {

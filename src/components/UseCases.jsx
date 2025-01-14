@@ -16,7 +16,7 @@ const UseCases = () => {
         <div className='font-medium mb-4 md:mb-0 md:ml-16 text-center md:text-left'>
           <h2 className='text-4xl text-grn'>Use Cases</h2>
         </div>
-        <div className='flex-col md:flex-row md:justify-between md:items-center'>
+        <div className='flex-col md:flex-row md:items-center'>
           <p className='mt-2 text-gray-300 max-w-2xl text-center md:text-left md:ml-16 '>
             At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions
           </p>
