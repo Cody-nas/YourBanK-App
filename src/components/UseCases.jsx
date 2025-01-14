@@ -6,7 +6,7 @@ import managing from '../assets/managing.png';
 import startup from '../assets/startup.png';
 import business from '../assets/businessExp.png';
 import cashflow from '../assets/cashflow.png';
-import payment from '../assets/paymentSol.png'
+import payment from '../assets/paymentSol.png';
 
 
 const UseCases = () => {
