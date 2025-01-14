@@ -94,7 +94,7 @@ const UseCases = () => {
         </div>
 
         {/* For businesses */}
-        <div className="flex flex-col space-x-4 md:flex-row mt-8">
+        <div className="flex flex-col lg:space-x-4 md:flex-row mt-8">
           {/* left section */}
           <div className="w-full md:w-1/2 px-4 mt-10">
             <h2 className="text-xl font-medium mt-4 mb-4">For Business</h2>
