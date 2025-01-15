@@ -18,12 +18,12 @@ const FAQ = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
           {/* faq 1 */}
-          <div className='bg-slate-600 p-6 rounded-lg shadow mt-4'>
-            <h3 className='text-xl font-semibold mb-2'>
+          <div className=' p-6 rounded-lg shadow mt-4'>
+            <h3 className='text-xl font-medium mb-2'>
               How do I open an account with YourBank?
             </h3>
             <hr />
-            <p>
+            <p className='mt-2 text-sm text-gray-300'>
               Opening an account with YourBank is easy. Simply visit our website and
               click on the “Open an Account” button. Follow the prompts, provide the
               required information, and complete the application process. If you
@@ -33,12 +33,12 @@ const FAQ = () => {
           </div>
 
           {/* faq 2 */}
-          <div className='bg-slate-600 p-6 rounded-lg shadow mt-4'>
+          <div className=' p-6 rounded-lg shadow mt-4'>
             <h3 className='text-xl font-semibold mb-2'>
               What documents do I need to provide to apply for a loan?
             </h3>
             <hr />
-            <p>
+            <p className='mt-2 text-sm text-gray-300'>
               The documents required for a loan application may vary depending on
               the type of loan you are applying for. Generally, you will need to
               provide identification documents (such as a passport or driver’s
@@ -50,12 +50,12 @@ const FAQ = () => {
           </div>
 
           {/* faq 3 */}
-          <div className='bg-slate-600 p-6 rounded-lg shadow mt-4'>
+          <div className='p-6 rounded-lg shadow mt-4'>
             <h3 className='text-xl font-semibold mb-2'>
               How can I access my account online?
             </h3>
             <hr />
-            <p>
+            <p className='mt-2 text-sm text-gray-300'>
               Accessing your accounts online is simple and secure. Visit our website
               and click on the “Login” button. Enter your username and password to
               access your accounts. If you haven’t registered for online banking,
@@ -66,12 +66,12 @@ const FAQ = () => {
           </div>
 
           {/* faq 4 */}
-          <div className='bg-slate-600 p-6 rounded-lg shadow mt-4'>
+          <div className='p-6 rounded-lg shadow mt-4'>
             <h3 className='text-xl font-semibold mb-2'>
               Are my transactions and personal information secure?
             </h3>
             <hr />
-            <p>
+            <p className='mt-2 text-sm text-gray-300'>
               At YourBank, we prioritize the security of your transactions and
               personal information. We employ industry-leading encryption and
               multi-factor authentication to ensure that your data is protected.
