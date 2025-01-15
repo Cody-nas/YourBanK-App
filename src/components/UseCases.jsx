@@ -115,7 +115,7 @@ const UseCases = () => {
                 <p className="text-gray-300 text-sm">Reducing financial burdens</p>
               </div>
             </div>
-            <div className="mt-6">
+            <div className=" mt-6">
               <button className=" border text-white px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-700">
                 Learn more
               </button>
