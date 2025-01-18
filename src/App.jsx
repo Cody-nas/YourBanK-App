@@ -5,6 +5,7 @@ import Careers from './Pages/Careers';
 import About from './Pages/About';
 import Security from './Pages/Security';
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/security" element={<Security />} />
       </Routes>
+      <Footer />
     </>
   );
 }

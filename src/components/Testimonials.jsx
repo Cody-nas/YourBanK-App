@@ -68,6 +68,28 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+
+
+      {/*  */}
+      <div className="bg-zinc-950 p-8 rounded-xl shadow-lg flex flex-col lg:flex-row justify-between items-center mt-12">
+        <div>
+          <h2 className=" text-2xl font-medium">
+            Start your financial journey with
+            <span className="text-grn"> YourBank today!</span>
+          </h2>
+          <p className="mt-2 text-gray-300 max-w-2xl ">
+            Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus
+            pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus.
+            Nascetur viverra arcu sed amet cursus purus.
+          </p>
+        </div>
+        <div className="mt-6 lg:mt-0">
+          <button className='bg-grn flex items-center space-x-2 py-2 px-6 text-black text-sm md:text-base font-medium hover:text-gray-400 transition-all duration-300 rounded-2xl hover:bg-slate-grey'>
+            Open Account
+          </button>
+        </div>
+      </div>
+
     </section>
   )
 }
