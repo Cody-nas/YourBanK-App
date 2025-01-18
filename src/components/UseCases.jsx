@@ -23,8 +23,6 @@ const UseCases = () => {
         </div>
 
         <div className="flex flex-col space-x-4 md:flex-row mt-2">
-
-
           {/* left section */}
           <div className="w-full md:w-1/2 grid grid-cols-2 text-sm mt-4 gap-4">
             {/* <!-- Card 1 --> */}

@@ -12,7 +12,7 @@ const Products = () => {
         </div>
 
         <div className='flex flex-col md:flex-row md:justify-between md:items-center'>
-          <p className="mt-4 text-gray-300 max-w-2xl text-center md:text-left md:ml-16 md:mr-10">
+          <p className="mt-2 text-gray-300 max-w-2xl text-center md:text-left md:ml-16 md:mr-10">
             Discover a range of comprehensive and customizable banking products at YourBank, designed to suit your unique financial needs and aspirations.
           </p>
 
@@ -28,7 +28,6 @@ const Products = () => {
 
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-5xl mx-auto lg:divide-x'>
-
           {/* Checking Account */}
           <div className=' p-6 text-center '>
             <div className="mb-4">
