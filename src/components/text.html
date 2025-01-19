@@ -1,76 +1,28 @@
-import React from 'react'; import { FaFacebook, FaTwitter, FaLinkedin } from
-'react-icons/fa'; import { MdEmail, MdPhone, MdLocationOn } from
-'react-icons/md'; const Footer = () => { return (
-<footer className="bg-gray-900 text-gray-300 py-10">
-  <div className="max-w-screen-xl mx-auto px-4 flex flex-col space-y-8">
-    {/* Logo and Navigation */}
-    <div
-      className="flex flex-col md:flex-row items-center md:justify-between w-full space-y-4 md:space-y-0"
-    >
-      <div
-        className="flex items-center justify-center md:justify-start space-x-4"
-      >
-        <div className="text-green-500 text-2xl font-semibold">YourBank</div>
-      </div>
-      <nav className="flex justify-center md:justify-start space-x-6">
-        <a href="#home" className="hover:text-green-500 transition">Home</a>
-        <a href="#careers" className="hover:text-green-500 transition"
-          >Careers</a
-        >
-        <a href="#about" className="hover:text-green-500 transition">About</a>
-        <a href="#security" className="hover:text-green-500 transition"
-          >Security</a
-        >
-      </nav>
-    </div>
-
-    {/* Contact Info */}
-    <div
-      className="flex flex-col md:flex-row items-center md:justify-between w-full space-y-4 md:space-y-0"
-    >
-      <div className="flex items-center space-x-2">
-        <MdEmail className="text-green-500" />
-        <span>hello@skillbirdge.com</span>
-      </div>
-      <div className="flex items-center space-x-2">
-        <MdPhone className="text-green-500" />
-        <span>+91 91813 23 2309</span>
-      </div>
-      <div className="flex items-center space-x-2">
-        <MdLocationOn className="text-green-500" />
-        <span>Somewhere in the World</span>
-      </div>
-    </div>
-
-    {/* Social Media Icons */}
-    <div className="flex justify-center space-x-4">
-      <FaFacebook
-        className="text-green-500 w-6 h-6 cursor-pointer hover:text-gray-400"
-      />
-      <FaTwitter
-        className="text-green-500 w-6 h-6 cursor-pointer hover:text-gray-400"
-      />
-      <FaLinkedin
-        className="text-green-500 w-6 h-6 cursor-pointer hover:text-gray-400"
-      />
-    </div>
-
-    {/* Copyright */}
-    <div
-      className="flex flex-col md:flex-row items-center md:justify-between w-full text-center md:text-left"
-    >
-      <p className="text-sm">&copy; 2025 YourBank All Rights Reserved</p>
-      <div
-        className="flex justify-center md:justify-start space-x-4 mt-2 md:mt-0"
-      >
-        <a href="#privacy" className="hover:text-green-500 transition"
-          >Privacy Policy</a
-        >
-        <a href="#terms" className="hover:text-green-500 transition"
-          >Terms of Service</a
-        >
-      </div>
-    </div>
+import React from 'react'; const CareersSection = () => { return (
+<section
+  className="bg-gray-900 p-8 rounded-lg shadow-lg max-w-7xl mx-auto my-12 flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-8"
+>
+  <div className="lg:w-1/2 text-center lg:text-left">
+    <h2 className="text-4xl font-bold text-white mb-4">
+      Welcome to <span className="text-green-500">YourBank</span> Careers!
+    </h2>
+    <p className="text-gray-300 leading-relaxed">
+      Join our team and embark on a rewarding journey in the banking industry.
+      At YourBank, we are committed to fostering a culture of excellence and
+      providing opportunities for professional growth. With a focus on
+      innovation, customer service, and integrity, we strive to make a positive
+      impact in the lives of our customers and communities. Join us today and be
+      a part of our mission to shape the future of banking.
+    </p>
   </div>
-</footer>
-); } export default Footer;
+
+  <div className="lg:w-1/2 relative">
+    <img
+      src="https://via.placeholder.com/400x300"
+      alt="Careers"
+      className="rounded-lg shadow-lg w-full object-cover"
+    />
+    {/* Additional decorative elements can be added here if needed */}
+  </div>
+</section>
+); }; export default CareersSection;

@@ -40,16 +40,16 @@ const Footer = () => {
         </div>
 
         {/* Contact Info */}
-        <div className="flex flex-col md:flex-row items-center my-8 justify-center space-y-4 md:space-y-0 md:space-x-4">
-          <div className="flex items-center space-x-2">
+        <div className="flex flex-col md:flex-row items-center my-8 justify-center space-y-4 md:space-y-0 md:space-x-4 ">
+          <div className="flex items-center space-x-2 hover:text-grn transition ">
             <MdEmail className="text-grn" />
             <span>hello@skillbirdge.com</span>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 hover:text-grn transition">
             <MdPhone className="text-grn" />
             <span>+91 91813 23 2309</span>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 hover:text-grn transition">
             <MdLocationOn className="text-grn" />
             <span>Somewhere in the World</span>
           </div>
@@ -59,20 +59,23 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Social Media Icons */}
           <div className='flex space-x-2'>
-            <IoLogoFacebook className="text-grn w-6 h-6 cursor-pointer hover:text-gray-400" />
-            <FaXTwitter className="text-grn w-6 h-6 cursor-pointer hover:text-gray-400" />
-            <FaLinkedin className="text-grn w-6 h-6 cursor-pointer hover:text-gray-400" />
+            <IoLogoFacebook className="text-grn w-6 h-6 cursor-pointer hover:text-gray-300" />
+            <FaXTwitter className="text-grn w-6 h-6 cursor-pointer hover:text-gray-300" />
+            <FaLinkedin className="text-grn w-6 h-6 cursor-pointer hover:text-gray-300" />
           </div>
 
           {/* Copyright */}
-          <h2 className='text-gray-300'>
-            YourBank All Rights Reserved
-          </h2>
+          <div>
+            <h2 className='text-gray-300'>
+              YourBank All Rights Reserved
+            </h2>
+          </div>
 
           {/* Privacy Policy and Terms */}
-          <div className="flex space-x-2">
-            <a href="#privacy" className="hover:text-grn transition">Privacy Policy</a>
-            <a href="#terms" className="hover:text-grn transition">Terms of Service</a>
+          <div className="flex space-x-2 ">
+            <a href="#privacy" className="hover:text-grn transition ">Privacy Policy</a>
+
+            <a href="#terms" className="hover:text-grn transition"> Terms of Service</a>
           </div>
         </div>
       </div>

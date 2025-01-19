@@ -1,10 +1,11 @@
 
 import React from 'react';
+import CareersHero from '../components/CareersHero';
 
 const Careers = () => {
   return (
     <div>
-      <h1>Careers Page</h1>
+      <CareersHero />
     </div>
   );
 };

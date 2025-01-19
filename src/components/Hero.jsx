@@ -7,8 +7,6 @@ const Hero = () => {
     <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
 
       <div className='flex flex-col md:flex-row justify-around items-center gap-6'>
-
-
         {/* hero content */}
         <div className='text-center md:text-left'>
           <div className=' bg-zinc-900 flex gap-2 mb-4 rounded-full mx-auto'>
