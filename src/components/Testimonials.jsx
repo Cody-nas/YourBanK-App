@@ -5,12 +5,12 @@ const Testimonials = () => {
   return (
     <section className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
       <div className='flex-col md:flex-row md:items-center'>
-        <div className='font-medium mb-4 md:mb-0 md:ml-16 text-center md:text-left'>
+        <div className='font-medium mb-4 md:mb-0 text-center md:text-left'>
           <h2 className='text-4xl'>Our <span className='text-grn'>Testimonials</span></h2>
         </div>
 
         <div className='flex flex-col md:flex-row md:justify-between md:items-center'>
-          <p className='mt-2 text-gray-300 max-w-2xl text-center md:text-left md:ml-16 md:mr-10'>
+          <p className='mt-2 text-gray-300 max-w-2xl text-center md:text-left md:mr-10'>
             Discover how YourBank has transformed lives with innovative digital
             solutions and personalized customer service. See why our clients trust us
             for a secure and prosperous financial journey.

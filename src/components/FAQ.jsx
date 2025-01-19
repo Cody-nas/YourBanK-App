@@ -4,21 +4,19 @@ const FAQ = () => {
   return (
     <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
       <div className='flex-col md:flex-row md:items-center'>
-        <div className='font-medium mb-4 md:mb-0 md:ml-16 text-center md:text-left'>
+        <div className='font-medium mb-4 md:mb-0 text-center md:text-left'>
           <h2 className='text-4xl '>
             <span className='text-grn'>Frequently</span> Asked Questions
           </h2>
         </div>
         <div className='flex flex-col md:flex-row md:items-center mt-4 md:mt-0'>
-          <p className='mt-2 text-gray-300 max-w-2xl text-center md:text-left md:ml-16'>
+          <p className='mt-2 text-gray-300  text-center md:text-left'>
             Still you have any questions? Contact our Team via <a href="support@yourbank.com" className='text-grn'>support@yourbank.com</a>
           </p>
         </div>
-
-
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
           {/* faq 1 */}
-          <div className=' p-6 rounded-lg shadow mt-4'>
+          <div className=' p-6 mt-4'>
             <h3 className='text-xl font-medium mb-2'>
               How do I open an account with YourBank?
             </h3>
@@ -33,7 +31,7 @@ const FAQ = () => {
           </div>
 
           {/* faq 2 */}
-          <div className=' p-6 rounded-lg shadow mt-4'>
+          <div className=' p-6  mt-4'>
             <h3 className='text-xl font-semibold mb-2'>
               What documents do I need to provide to apply for a loan?
             </h3>
@@ -50,7 +48,7 @@ const FAQ = () => {
           </div>
 
           {/* faq 3 */}
-          <div className='p-6 rounded-lg shadow mt-4'>
+          <div className='p-6  mt-4'>
             <h3 className='text-xl font-semibold mb-2'>
               How can I access my account online?
             </h3>
@@ -66,7 +64,7 @@ const FAQ = () => {
           </div>
 
           {/* faq 4 */}
-          <div className='p-6 rounded-lg shadow mt-4'>
+          <div className='p-6  mt-4'>
             <h3 className='text-xl font-semibold mb-2'>
               Are my transactions and personal information secure?
             </h3>

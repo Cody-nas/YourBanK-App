@@ -13,11 +13,11 @@ const UseCases = () => {
   return (
     <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
       <div className='flex-col md:flex-row md:items-center'>
-        <div className='font-medium mb-4 md:mb-0 md:ml-16 text-center md:text-left'>
+        <div className='font-medium mb-4 md:mb-0  text-center md:text-left'>
           <h2 className='text-4xl text-grn'>Use Cases</h2>
         </div>
         <div className='flex-col md:flex-row md:items-center'>
-          <p className='mt-2 text-gray-300 max-w-2xl text-center md:text-left md:ml-16 '>
+          <p className='mt-2 text-gray-300 text-center md:text-left  '>
             At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions
           </p>
         </div>
