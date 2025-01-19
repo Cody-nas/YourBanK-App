@@ -14,7 +14,7 @@ const Values = () => {
           delivering exceptional service, and embracing innovation. These values define our culture and shape the way we work together to achieve our goals.
         </p>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+      <div className='grid grid-cols-1 mt-4 md:grid-cols-2 gap-6'>
         {/* values 1 */}
         <div className=' p-6 mt-4 border-l-2 border-grn'>
           <h3 className='text-xl font-medium mb-2'>
