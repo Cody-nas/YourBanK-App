@@ -19,7 +19,7 @@ const Benefits = () => {
       </div>
       <div className='grid grid-cols-1 mt-4 md:grid-cols-2 gap-6'>
         {/* benefit 1 */}
-        <div className=' p-6 mt-4 '>
+        <div className='bg-zinc-950 rounded-br-[25px] rounded-tl-[25px] p-6 mt-4 '>
           <div className='flex  items-center gap-2'>
             <img src={competitive} alt="" className='w-10 h-10' />
             <h3 className='text-xl font-medium mb-2'>
@@ -31,7 +31,7 @@ const Benefits = () => {
           </p>
         </div>
         {/* benefit 2 */}
-        <div className=' p-6 mt-4 '>
+        <div className=' p-6 mt-4 bg-zinc-950 rounded-br-[25px] rounded-tl-[25px] '>
           <div className='flex  items-center gap-2'>
             <img src={health} alt="" className='w-10 h-10' />
             <h3 className='text-xl font-medium mb-2'>
@@ -43,7 +43,7 @@ const Benefits = () => {
           </p>
         </div>
         {/* benefit 3 */}
-        <div className=' p-6 mt-4 '>
+        <div className=' p-6 mt-4 bg-zinc-950 rounded-br-[25px] rounded-tl-[25px] '>
           <div className='flex  items-center gap-2'>
             <img src={retirement} alt="" className='w-10 h-10' />
             <h3 className='text-xl font-medium mb-2'>
@@ -55,7 +55,7 @@ const Benefits = () => {
           </p>
         </div>
         {/* benefit 4 */}
-        <div className=' p-6 mt-4 '>
+        <div className=' p-6 mt-4 bg-zinc-950 rounded-br-[25px] rounded-tl-[25px] '>
           <div className='flex  items-center gap-2'>
             <img src={workLife} alt="" className='w-10 h-10' />
             <h3 className='text-xl font-medium mb-2'>

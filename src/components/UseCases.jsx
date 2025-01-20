@@ -26,35 +26,29 @@ const UseCases = () => {
           {/* left section */}
           <div className="w-full md:w-1/2 grid grid-cols-2 text-sm mt-4 gap-4">
             {/* <!-- Card 1 --> */}
-            <div className=" p-4 rounded-2xl border shadow-2xl text-center">
+            <div className=" p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className="text-center mb-2">
                 <img src={managing} alt="" className='w-10 h-10 mx-auto' />
               </div>
               <p>Managing Personal Finances</p>
             </div>
-
-
             {/* <!-- Card 2 --> */}
-            <div className=" p-4 rounded-2xl border shadow-2xl text-center">
+            <div className=" p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className="mb-2">
                 <img src={future} alt="" className='w-10 h-10 mx-auto' />
               </div>
               <p>Saving for the Future</p>
             </div>
-
-
             {/* <!-- Card 3 --> */}
-            <div className="p-4 rounded-2xl border shadow-2xl text-center">
+            <div className="p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className="mb-2">
                 <img src={home} alt="" className='w-10 h-10 mx-auto' />
 
               </div>
               <p>Homeownership</p>
             </div>
-
-
             {/* <!-- Card 4 --> */}
-            <div className="p-4 rounded-2xl border shadow-2xl text-center">
+            <div className="p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className=" mb-2">
                 <img src={funding} alt="" className='w-10 h-10 mx-auto' />
 
@@ -123,7 +117,7 @@ const UseCases = () => {
           {/* right section */}
           <div className="w-full md:w-1/2 grid grid-cols-2 text-sm mt-6 gap-4">
             {/* <!-- Card 1 --> */}
-            <div className=" p-4 rounded-2xl border shadow-2xl text-center">
+            <div className=" p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className="text-center mb-2">
                 <img src={startup} alt="" className='w-10 h-10 mx-auto' />
               </div>
@@ -132,7 +126,7 @@ const UseCases = () => {
 
 
             {/* <!-- Card 2 --> */}
-            <div className=" p-4 rounded-2xl border shadow-2xl text-center">
+            <div className=" p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className="mb-2">
                 <img src={cashflow} alt="" className='w-10 h-10 mx-auto' />
               </div>
@@ -141,7 +135,7 @@ const UseCases = () => {
 
 
             {/* <!-- Card 3 --> */}
-            <div className="p-4 rounded-2xl border shadow-2xl text-center">
+            <div className="p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className="mb-2">
                 <img src={business} alt="" className='w-10 h-10 mx-auto' />
 
@@ -151,7 +145,7 @@ const UseCases = () => {
 
 
             {/* <!-- Card 4 --> */}
-            <div className="p-4 rounded-2xl border shadow-2xl text-center">
+            <div className="p-4 rounded-2xl bg-zinc-950 shadow-2xl text-center">
               <div className=" mb-2">
                 <img src={payment} alt="" className='w-10 h-10 mx-auto' />
 
