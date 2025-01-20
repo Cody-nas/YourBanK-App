@@ -18,41 +18,41 @@ const OurFeatures = () => {
       <div className='flex flex-col md:flex-row md:space-x-4 mt-8'>
         {/* Sidebar */}
         <div className="  md:w-1/4 flex flex-col space-y-4 p-6 text-center rounded-lg">
-          <button className="text-center lg:mt-8 text-grn text-sm border-2 border-gray-50 p-2 rounded-full">
+          <button className="text-center lg:mt-8 text-grn text-sm bg-zinc-950 border-gray-50 p-2 rounded-full">
             Online Banking
           </button>
-          <button className="text-center text-gray-300 text-sm p-2 rounded-full border-2 border-gray-50">
+          <button className="text-center text-gray-300 text-sm p-2 rounded-full bg-zinc-950 border-gray-50">
             Financial Tools
           </button>
-          <button className="text-center text-gray-300 text-sm p-2 rounded-full border-2 border-gray-50">
+          <button className="text-center text-gray-300 text-sm p-2 rounded-full bg-zinc-950 border-gray-50">
             Customer Support
           </button>
         </div>
 
         {/* Feature Cards */}
         <div className='md:w-3/4 grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:mt-0'>
-          <div className='p-6 rounded-lg border'>
+          <div className='p-6 rounded-lg bg-zinc-950'>
             <div className='flex justify-between'>
               <h2 className="text-sm font-medium">24/7 Account Access</h2>
               <img src={arrow} alt="arrow" className='w-4 h-4' />
             </div>
             <p className='mt-2 text-sm text-gray-300'>Enjoy the convenience of accessing your accounts anytime, anywhere through our secure online banking platform. Check balances, transfer funds, and pay bills with ease.</p>
           </div>
-          <div className='p-6 rounded-lg border'>
+          <div className='p-6 rounded-lg bg-zinc-950 '>
             <div className='flex justify-between'>
               <h2 className="text-sm font-medium">Mobile Banking App</h2>
               <img src={arrow} alt="arrow" className='w-4 h-4' />
             </div>
             <p className='mt-2 text-sm text-gray-300'>Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.</p>
           </div>
-          <div className='p-6 rounded-lg border'>
+          <div className='p-6 rounded-lg bg-zinc-950'>
             <div className='flex justify-between'>
               <h2 className="text-sm font-medium">Secure Transactions</h2>
               <img src={arrow} alt="arrow" className='w-4 h-4' />
             </div>
             <p className='mt-2 text-sm text-gray-300'>Rest assured knowing that your transactions are protected by industry-leading security measures. We employ encryption and multi-factor authentication to safeguard your financial information.</p>
           </div>
-          <div className='p-6 rounded-lg border'>
+          <div className='p-6 rounded-lg bg-zinc-950'>
             <div className='flex justify-between'>
               <h2 className="text-sm font-medium">Bill Pay and Transfers</h2>
               <img src={arrow} alt="arrow" className='w-4 h-4' />
