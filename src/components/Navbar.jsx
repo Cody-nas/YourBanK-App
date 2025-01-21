@@ -11,7 +11,7 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const navItems = [
+  const navItems = [1
     { name: "Home", path: "/" },
     { name: "Careers", path: "/careers" },
     { name: "About", path: "/about" },
