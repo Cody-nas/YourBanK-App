@@ -57,14 +57,14 @@ const JobOpenings = () => {
       <div className="grid grid-cols-1 mt-4 md:grid-cols-2 gap-6">
         {jobs.map((job, index) => (
           <div key={index} className="bg-zinc-950 p-6 rounded-lg shadow-md">
-            <h3 className="text-2xl font-bold mb-2">{job.title}</h3>
+            <h3 className="text-xl font-medium mb-2">{job.title}</h3>
             <div className="flex justify-between text-gray-400 mb-4">
               <span className="bg-gray-700 px-2 py-1 rounded-lg">{`Location: ${job.location}`}</span>
               <span className="bg-gray-700 px-2 py-1 rounded-lg">{`Department: ${job.department}`}</span>
             </div>
-            <p className="text-gray-300 mb-4">{job.description}</p>
-            <h4 className="text-lg font-bold mb-2">Requirements & Qualifications</h4>
-            <ul className="list-disc pl-5 text-gray-300">
+            <p className="text-gray-300 text-sm mb-4">{job.description}</p>
+            <h4 className="text-xl font-medium mb-2">Requirements & Qualifications</h4>
+            <ul className="list-disc text-sm pl-5 text-gray-300">
               {job.requirements.map((requirement, idx) => (
                 <li key={idx}>{requirement}</li>
               ))}
