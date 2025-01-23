@@ -4,7 +4,7 @@ import CareersHero from '../components/CareersHero';
 import Values from '../components/Values';
 import Benefits from '../components/Benefits';
 import JobOpenings from '../components/JobOpenings';
-import Testimonials from '../components/Testimonials'
+import FaQ from '../components/FaQ';
 
 const Careers = () => {
   return (
@@ -13,7 +13,7 @@ const Careers = () => {
       <Values />
       <Benefits />
       <JobOpenings />
-      <Testimonials />
+      <FaQ />
     </div>
   );
 };
