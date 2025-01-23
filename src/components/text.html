@@ -1,60 +1,52 @@
-import React from 'react'; const JobOpenings = () => { const jobs = [ { title:
-'Relationship Manager', location: 'India', department: 'Retail Banking',
-description: 'As a Relationship Manager at YourBank, you will be responsible for
-developing and maintaining relationships with our valued customers. You will
-proactively identify their financial needs and offer tailored solutions to help
-them achieve their goals. We are seeking individuals with excellent
-communication skills, a strong sales acumen, and a passion for delivering
-exceptional customer service.', requirements: [ 'Bachelor\'s degree in Business,
-Finance, or a related field', 'Minimum of 3 years of experience in sales or
-relationship management in the banking industry', 'Proven track record of
-meeting and exceeding sales targets', 'Excellent interpersonal and negotiation
-skills', 'Strong knowledge of banking products and services' ] }, { title: 'Risk
-Analyst', location: 'India', department: 'Risk Management', description: 'As a
-Risk Analyst at YourBank, you will play a vital role in identifying and
-assessing potential risks to our organization. You will analyze data, conduct
-risk assessments, and develop strategies to mitigate risks. We are looking for
-detail-oriented individuals with strong analytical skills and a solid
-understanding of risk management principles.', requirements: [ 'Bachelor\'s
-degree in Finance, Economics, or a related field', 'Minimum of 2 years of
-experience in risk management or a similar role', 'Proficiency in risk analysis
-tools and techniques', 'Strong analytical and problem-solving skills',
-'Knowledge of regulatory requirements and industry best practices' ] } ]; return
-(
-<section className="px-4 md:px-12 max-w-screen-2xl mx-auto mt-24">
-  <h2 className="text-3xl font-bold text-green-500">Job Openings</h2>
-  <p className="text-gray-300 mt-2">
-    Explore exciting job openings at YourBank, where we value talent,
-    innovation, and a passion for customer service. Join our team and be part of
-    shaping a brighter future in the banking industry.
-  </p>
+<section class="bg-gray-900 text-gray-200 py-16 px-8">
+  <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-lime-500">Mission & Vision</h2>
+    <p class="mt-4 text-lg text-gray-400">
+      We envision being a leading force in the industry, driven by innovation,
+      integrity, and inclusivity, creating a brighter financial future for
+      individuals and businesses while maintaining a strong commitment to
+      customer satisfaction and community development.
+    </p>
+  </div>
 
-  <div className="grid md:grid-cols-2 gap-8 mt-8">
-    {jobs.map((job, index) => (
-    <div key="{index}" className="bg-gray-800 p-6 rounded-lg shadow-md">
-      <h3 className="text-2xl font-bold mb-2">{job.title}</h3>
-      <div className="flex justify-between text-gray-400 mb-4">
-        <span className="bg-gray-700 px-2 py-1 rounded-lg"
-          >{`Location: ${job.location}`}</span
-        >
-        <span className="bg-gray-700 px-2 py-1 rounded-lg"
-          >{`Department: ${job.department}`}</span
-        >
-      </div>
-      <p className="text-gray-300 mb-4">{job.description}</p>
-      <h4 className="text-lg font-bold mb-2">Requirements & Qualifications</h4>
-      <ul className="list-disc pl-5 text-gray-300">
-        {job.requirements.map((requirement, idx) => (
-        <li key="{idx}">{requirement}</li>
-        ))}
-      </ul>
-      <button
-        className="mt-4 px-6 py-2 bg-green-500 text-gray-900 font-bold rounded-lg hover:bg-green-600 transition"
-      >
-        Apply Now
-      </button>
+  <div class="mt-16 grid md:grid-cols-2 gap-12 max-w-7xl mx-auto">
+    <!-- Mission -->
+    <div class="flex flex-col items-center md:items-start">
+      <img
+        src="your-image-source-mission.jpg"
+        alt="Mission"
+        class="rounded-lg shadow-lg"
+      />
+      <h3 class="text-2xl font-bold mt-6">Mission</h3>
+      <p class="mt-4 text-gray-400">
+        At YourBank, our mission is to empower our customers to achieve
+        financial success. We are dedicated to delivering innovative banking
+        solutions that cater to their unique needs. Through personalized
+        services, expert guidance, and cutting-edge technology, we aim to build
+        strong, lasting relationships with our customers. Our mission is to be
+        their trusted partner, helping them navigate their financial journey and
+        realize their dreams.
+      </p>
     </div>
-    ))}
+
+    <!-- Vision -->
+    <div class="flex flex-col items-center md:items-start">
+      <img
+        src="your-image-source-vision.jpg"
+        alt="Vision"
+        class="rounded-lg shadow-lg"
+      />
+      <h3 class="text-2xl font-bold mt-6">Vision</h3>
+      <p class="mt-4 text-gray-400">
+        Our vision at YourBank is to redefine banking by creating a seamless and
+        personalized experience for our customers. We envision a future where
+        banking is accessible, transparent, and tailored to individual
+        preferences. Through continuous innovation and collaboration, we strive
+        to be at the forefront of the industry, setting new standards for
+        customer-centric banking. Our vision is to be the preferred financial
+        institution, known for our unwavering commitment to excellence, trust,
+        and customer satisfaction.
+      </p>
+    </div>
   </div>
 </section>
-); }; export default JobOpenings;
