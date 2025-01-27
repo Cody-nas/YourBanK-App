@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import SecurityHero from '../components/SecurityHero';
 
 const Security = () => {
   return (
-    <div>Security</div>
+    <div>
+      <SecurityHero />
+    </div>
   )
 }
 
