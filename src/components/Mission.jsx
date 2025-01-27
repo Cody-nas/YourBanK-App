@@ -26,9 +26,9 @@ const Mission = () => {
         </div>
 
         {/* content */}
-        <div className='border-l-1 border-grn p-6 md:w-2/5'>
-          <h3 class="text-2xl font-bold mt-6">Mission</h3>
-          <p class="mt-4 text-gray-300">
+        <div className='lg:border-l-1 lg:border-grn p-6 md:w-2/5'>
+          <h3 className="text-2xl font-bold mt-6">Mission</h3>
+          <p className="mt-4 text-gray-300">
             At YourBank, our mission is to empower our customers to achieve
             financial success. We are dedicated to delivering innovative banking
             solutions that cater to their unique needs. Through personalized
@@ -41,11 +41,11 @@ const Mission = () => {
       </div>
 
       {/* vission */}
-      <div className='flex flex-col md:flex-row justify-evenly items-center  mt-8'>
+      <div className='flex flex-col md:flex-row  justify-evenly items-center  mt-8'>
         {/* content */}
-        <div className='border-r-1 border-grn p-6 md:w-2/5'>
-          <h3 class="text-2xl font-bold mt-6">Vision</h3>
-          <p class="mt-4 text-gray-300">
+        <div className='lg:border-r-1 lg:border-grn p-6 md:w-2/5'>
+          <h3 className="text-2xl font-bold mt-6">Vision</h3>
+          <p className="mt-4 text-gray-300">
             Our vision at YourBank is to redefine banking by creating a seamless and
             personalized experience for our customers. We envision a future where
             banking is accessible, transparent, and tailored to individual
