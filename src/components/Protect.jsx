@@ -1,6 +1,6 @@
 import React from 'react';
 import fraud from '../assets/Fraud.png';
-import secure from '../assets/Secure.png';
+import secure from '../assets/secure.png';
 import Mobile from '../assets/Mobile.png';
 import multi from '../assets/Multi.png';
 
