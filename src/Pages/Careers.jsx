@@ -4,7 +4,7 @@ import CareersHero from '../components/CareersHero';
 import Values from '../components/Values';
 import Benefits from '../components/Benefits';
 import JobOpenings from '../components/JobOpenings';
-import FaQ from '../components/FaQ';
+import FaQ from '../components/FAQ';
 
 const Careers = () => {
   return (
