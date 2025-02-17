@@ -2,7 +2,7 @@ import React from 'react';
 import competitive from '../assets/competitive.png';
 import health from '../assets/Health.png';
 import retirement from '../assets/retirment.png';
-import workLife from '../assets/Work-life.png';
+import workLife from '../assets/work-life.png';
 const Benefits = () => {
   return (
     <section className='flex-col md:flex-row md:items-center md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
